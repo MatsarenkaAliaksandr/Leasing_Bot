@@ -4,7 +4,7 @@ import json
 from telebot import types
 import random
 
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 keyboard = ['🧮 Рассчитать лизинг']
 keyboard_one: list[str] = ['👨‍🦳 Юр. лицо', '🧔‍♂️ ИП', '👱‍♂️ Физ. лицо', '↪️ Вернуться в начало']
