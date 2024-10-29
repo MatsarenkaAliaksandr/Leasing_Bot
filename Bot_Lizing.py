@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('8000703233:AAFbsf9GCJR-YxaEcGp91o6pN6Yr6g6Obak')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 keyboard = ['🧮 Рассчитать лизинг']
 keyboard_one: list[str] = ['👨‍🦳 Юр. лицо', '🧔‍♂️ ИП', '👱‍♂️ Физ. лицо', '↪️ Вернуться в начало']
